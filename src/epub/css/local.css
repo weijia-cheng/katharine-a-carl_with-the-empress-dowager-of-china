@@ -6,6 +6,10 @@ blockquote[xml|lang]{
 	font-style: italic;
 }
 
+blockquote[xml|lang] em{
+	font-style: normal;
+}
+
 /* Dedication */
 section[epub|type~="dedication"]{
 	margin-top: 20vh;
