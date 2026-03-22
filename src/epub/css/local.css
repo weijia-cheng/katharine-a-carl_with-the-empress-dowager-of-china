@@ -10,6 +10,11 @@ blockquote[xml|lang] em{
 	font-style: normal;
 }
 
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
 /* Dedication */
 section[epub|type~="dedication"]{
 	margin-top: 20vh;
@@ -28,17 +33,13 @@ section[epub|type~="dedication"] > p:last-of-type{
 	text-indent: 0;
 }
 
-section[epub|type~="dedication"] footer{
-	margin-top: 1em;
-}
-
 section[epub|type~="dedication"] footer p:first-of-type{
 	margin-right: 10vw;
-	text-align: right;
 }
 
 section[epub|type~="dedication"] footer p:last-of-type{
 	margin-left: 10vw;
+	text-align: initial;
 	text-indent: 0;
 }
 /* End dedication */
@@ -68,11 +69,6 @@ section[epub|type~="dedication"] footer p:last-of-type{
 
 p span.i1{
 	padding-left: 2em;
-	text-indent: -1em;
-}
-
-p span.i2{
-	padding-left: 3em;
 	text-indent: -1em;
 }
 /* End verse */
