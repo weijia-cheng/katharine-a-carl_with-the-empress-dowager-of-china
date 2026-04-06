@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-15.xhtml">
+		<ignore code="t-011">
+			<line>31</line>
+			<reason>Figure caption doesn’t need to end with punctuation.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-24.xhtml">
+		<ignore code="t-011">
+			<line>25</line>
+			<reason>Figure caption doesn’t need to end with punctuation.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
