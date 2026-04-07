@@ -38,6 +38,7 @@ section[epub|type~="dedication"] footer p:first-of-type{
 }
 
 section[epub|type~="dedication"] footer p:last-of-type{
+	font-style: italic;
 	margin-left: 10vw;
 	text-align: initial;
 	text-indent: 0;
